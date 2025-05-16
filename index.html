@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Web Sayt</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home"><i class="fas fa-cube"></i> LOGO</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">Bosh Sahifa</a></li>
+                    <li><a href="#services">Xizmatlar</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Aloqa</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="hero-subtitle">faberlic mahsulotlari</span>
+            <h1>Bizning Kompaniyamizga Xush Kelibsiz</h1>
+            <p>Faberlic mahsulotlari va sifatli yechimlar bilan biz sizning go'zalligingiz va salomatligingizni yangi bosqichga olib chiqamiz</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="cta-button">Biz bilan bog'laning <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>Bizning Xizmatlarimiz</h2>
+            <p>faberlic imkoniyatlari bilan tanishing</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="images/rasm1.jpg" alt="Veb Dizayn" style="width:100%;">
+                <h3>faberlic</h3>
+                <p>Eng yaxshi tanlov faberlic u bilan yanada go'zallashing</p>
+            </div>
+            <div class="service-card">
+                <img src="images/rasm2.jpg" alt="Mobil Dasturlar" style="width:100%;">
+                <h3>Yangi hamkorlar uchun</h3>
+                <p>Yangi hamkorlar uchun sovg'a</p>
+            </div>
+            <div class="service-card">
+                <img src="images/rasm3.jpg" alt="Marketing" style="width:100%;">
+                <h3>Marketing</h3>
+                <p>Oyliklar jadvali bilan tanishing</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <!-- Portfolio section removed as requested -->
+
+    <!-- About Section -->
+    <!-- About section removed as requested -->
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="section-header">
+            <h2>Bizning kamanda</h2>
+            <p>Xalqaro biznes va barakali bonuslar</p>
+        </div>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="images/rasm4.jpg" alt="Blog 1">
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <!-- Removed date and admin info as requested -->
+                    </div>
+                    <h3>Barkarorlik bonusi!</h3>
+                    <p>Siz  Direktor bo'lib 8 ta katalog davomida ketma- ket 23% da bo'lib, O'z unvoningizni ushlayapsizmi? Kompaniyadan  pullik mukofotini oling!</p>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="images/rasm5.jpg" alt="Blog 2">
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <!-- Removed date and admin info as requested -->
+                    </div>
+                    <h3>Kompaniyamiz xalqlararo</h3>
+                    <p>44 ta davlat ichida hamkorlarni a'zo qilib biznes yuritsangiz bo'ladi! Oyligingizni esa har xil valyutada bo'lib, qayerga borsangiz ham olaverasiz! Har bir Faberlic Lideri multivalyutalik hisobiga ega!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Biz bilan bog'laning</h2>
+            <p>Savollaringiz bo'lsa, bizga yozing</p>
+        </div>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Ismingiz" required>
+                <input type="email" placeholder="Email manzilingiz" required>
+                <input type="tel" placeholder="Telefon raqamingiz" required>
+                <textarea placeholder="Xabaringiz" required></textarea>
+                <button type="submit" class="submit-btn">Yuborish</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Manzil</h3>
+                        <p>Andijon viloyati, Andijon tuman</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Telefon</h3>
+                        <p>+998942730312</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>talabakidt@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Ish vaqti</h3>
+                        <p>Dushanba - Shanba: 9:00 - 18:00</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-telegram"></i>
+                    <div>
+                        <h3>Telegram</h3>
+                        <p><a href="https://t.me/MADI05_bot" target="_blank">@MADI05_bot</a></p>
+                        <p>Bot ID: 6032792028</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Footer content removed as requested -->
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const icon = themeToggle.querySelector('i');
+        
+        // Check for saved theme preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            document.body.setAttribute('data-theme', 'dark');
+            icon.classList.replace('fa-moon', 'fa-sun');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = document.body.getAttribute('data-theme');
+            
+            if (currentTheme === 'dark') {
+                document.body.removeAttribute('data-theme');
+                icon.classList.replace('fa-sun', 'fa-moon');
+                localStorage.setItem('theme', 'light');
+            } else {
+                document.body.setAttribute('data-theme', 'dark');
+                icon.classList.replace('fa-moon', 'fa-sun');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+    </script>
+</body>
+</html> 
